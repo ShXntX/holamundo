@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:hola_mundo/alertas.dart';
+import 'package:hola_mundo/alertas_2.dart';
+import 'package:hola_mundo/bandera.dart';
 import 'package:hola_mundo/center.dart';
 import 'package:hola_mundo/layout.dart';
 import 'package:hola_mundo/listas.dart';
 import 'package:hola_mundo/listas_list_view.dart';
+import 'package:hola_mundo/tarjetas.dart';
 
 void main() => runApp(MyApp());
 
@@ -24,7 +28,11 @@ class _MyAppState extends State<MyApp> {
       //home: Layout(),
       //home: CenterLayout(),
       //home: Listas(),
-      home: ListasListView(),
+      //home: ListasListView(),
+      //home: Tarjetas(),
+      //home: Bandera(),
+      //home: Alertas(),
+      home: Alertas2(),
       // home: Scaffold(
       //   // los componentes dentro de esto todo los componentes ue uisiera tener
       //   appBar: AppBar(
